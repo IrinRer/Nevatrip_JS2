@@ -6,7 +6,7 @@ const btn = document.querySelector(".button");
 
 const oneWayTravelTime = 50;
 const costOneWayTicket = 700;
-const costRoundTripticket = 1500;
+const costRoundTripticket = 1200;
 const keyWordForSearch = "обратно";
 const arrTimeBfromA = ["18:45", "19:00", "19:15", "19:35", "21:50", "21:55"];
 const arrTimeAfromB = ["18:00", "18:30", "18:45", "19:00", "19:15", "21:00"];
