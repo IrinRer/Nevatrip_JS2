@@ -16,7 +16,7 @@ let selectedTime = selectTime.value.match(/[0-9:]/gm);
 let arrivalTime = "18:50";
 let price = costOneWayTicket;
 let time = oneWayTravelTime;
-let quantity = 0;
+let quantity = 1;
 
 selectRoute.addEventListener("change", (event) => {
   selectedRoute = event.target.value;
