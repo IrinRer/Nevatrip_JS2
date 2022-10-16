@@ -12,7 +12,6 @@ const arrTimeBfromA = ["18:45", "19:00", "19:15", "19:35", "21:50", "21:55"];
 const arrTimeAfromB = ["18:00", "18:30", "18:45", "19:00", "19:15", "21:00"];
 
 let selectedRoute = selectRoute.value;
-let arrivalTimeRoundTrip = 0;
 let selectedTime = selectTime.value.match(/[0-9:]/gm);
 let arrivalTime = "18:50";
 let price = costOneWayTicket;
