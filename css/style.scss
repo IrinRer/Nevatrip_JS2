@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+
+  .select {
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+    box-shadow: 2px 2px 2px darkgreen;
+  }
+
+  .input {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px 0;
+    border: 2px solid darkgreen;
+    box-shadow: 2px 2px 2px darkgreen;
+    color: darkgreen;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  label {
+    margin-top: 20px;
+  }
+
+  button {
+    cursor: pointer;
+    padding: 10px 40px;
+    background-color: white;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px darkgreen;
+    transition: all .5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  };
+}
+
+.select-additional {
+    margin-top: 20px;
+}
+
+.message {
+  width: 500px;
+  color: darkgreen;
+  font-weight: 600;
+  font-size: 16px;
+}

@@ -1,0 +1,63 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+}
+.wrapper .select {
+  width: 300px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid darkgreen;
+  -webkit-box-shadow: 2px 2px 2px darkgreen;
+          box-shadow: 2px 2px 2px darkgreen;
+}
+.wrapper .input {
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px 0;
+  border: 2px solid darkgreen;
+  -webkit-box-shadow: 2px 2px 2px darkgreen;
+          box-shadow: 2px 2px 2px darkgreen;
+  color: darkgreen;
+  font-weight: 600;
+  font-size: 16px;
+}
+.wrapper label {
+  margin-top: 20px;
+}
+.wrapper button {
+  cursor: pointer;
+  padding: 10px 40px;
+  background-color: white;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 2px darkgreen;
+          box-shadow: 2px 2px 2px darkgreen;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.wrapper button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.select-additional {
+  margin-top: 20px;
+}
+
+.message {
+  width: 500px;
+  color: darkgreen;
+  font-weight: 600;
+  font-size: 16px;
+}
